@@ -1,0 +1,434 @@
+a,
+h1,
+p,
+div {
+    margin: 0;
+    padding: 0;
+}
+
+.authPage {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("../assets/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    flex: 1 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 132px;
+    padding-bottom: 32px;
+}
+
+.authPage .container {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    padding: 0px 15px;
+    max-width: 720px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.ant-layout-header {
+    line-height: 0;
+}
+
+.ant-layout .authPage .container .login_wraper {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.8);
+    margin: 0 auto;
+    max-width: 766px;
+    width: 100%;
+    box-shadow: 0px 10px 10px rgb(0 0 0 / 10%);
+}
+
+.authPage .login_wraper .login_inr_wrp {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.login_inr_wrp {
+    flex-wrap: nowrap !important;
+    margin: 20px 20px 36px 20px;
+}
+
+.authPage .login_wraper .login_inr_wrp .loginimg_div {
+    background: #ffffff;
+    background-size: cover;
+    min-width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ant-col {
+    position: relative;
+    max-width: 100%;
+    min-height: 1px;
+}
+
+body .ant-input-prefix .anticon {
+    opacity: 0.5;
+    font-size: 14px;
+}
+
+.authPage .login_wraper .login_inr_wrp .formdiv .pagename {
+    color: black;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 20px;
+    position: relative;
+}
+
+.authPage .login_wraper .login_inr_wrp .formdiv .pagename::after {
+    content: "";
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    background: #384e4c;
+    left: 0;
+    top: 76%;
+}
+
+.authPage .login_wraper .login_inr_wrp .formdiv {
+    padding: 0px 24px 0px 24px;
+    width: 100%;
+}
+
+.ant-form {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 14px;
+    font-variant: tabular-nums;
+    line-height: 1.5715;
+    list-style: none;
+    font-feature-settings: 'tnum', "tnum";
+}
+
+.ant-col.rightside a h1 {
+    color: #ffffff;
+}
+
+.authPage .login_wraper .login_inr_wrp .formdiv .pagename span {
+    position: relative;
+    z-index: 9;
+    display: inline-block;
+    padding: 40px 10px;
+}
+
+.ant-row {
+    display: flex;
+    flex-flow: row wrap;
+    min-width: 0;
+}
+
+
+/* .ant-col-xs-24 {
+    display: block;
+    flex: 0 0 100%;
+    max-width: 100%;
+} */
+
+.authPage .login_wraper .login_inr_wrp .formdiv .ant-form-item {
+    margin-bottom: 34px;
+    text-align: left;
+}
+
+.ant-form-item-control-input {
+    position: relative;
+    display: flex;
+    align-items: center;
+    min-height: 32px;
+}
+
+.ant-btn.loginbtn {
+    width: 100%;
+    margin: 0px;
+}
+
+.btnparent {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    color: #385fef;
+}
+
+.btnparent .two {
+    padding-top: 10px;
+}
+
+body .ant-input-affix-wrapper {
+    border: 1px solid #e0e0e0;
+    min-height: 36px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    padding: 0px 6px;
+    border-radius: 5px;
+}
+
+.anticon {
+    display: inline-block;
+    color: inherit;
+    font-style: normal;
+    line-height: 0;
+    text-align: center;
+    text-transform: none;
+    vertical-align: -0.125em;
+    text-rendering: optimizelegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body .ant-btn.ant-btn-primary {
+    background: linear-gradient(135deg, #11998E 0%, #385fef 100%);
+    min-height: 12px;
+    width: 100%;
+    margin: 0px;
+    border-radius: 5px;
+}
+
+.authPage .login_wraper .btnparent {
+    display: flex;
+    justify-content: center;
+    padding-top: 24px;
+}
+
+.authPage .login_wraper .button-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    text-decoration-line: none;
+    color: #2e2e2e;
+    background: none;
+    border: 0;
+    outline: 0;
+    /* border-right: 1px solid #9a9a9a; */
+    padding: 0px 8px;
+}
+
+.authPage .login_wraper .btnparent {
+    display: flex;
+    justify-content: center;
+    padding-top: 24px;
+}
+
+body .ant-layout-header .logo {
+    margin-right: 32px;
+    display: inline-block;
+    max-width: 140px;
+}
+
+body .ant-layout-header .logo img {
+    width: 70px;
+}
+
+.ant-layout-header .container {
+    margin: 0px 50px !important;
+}
+
+.ant-table-wrapper {
+    overflow: auto;
+}
+
+@media only screen and (max-width: 991px) {
+    .authPage .login_wraper .login_inr_wrp .formdiv {
+        padding: 0px 32px 32px 32px;
+    }
+    .authPage .login_wraper .button-link {
+        font-size: 14px;
+        padding: 0px 7px;
+    }
+    body .ant-layout-header .logo {
+        background: none;
+        min-width: 140px;
+        max-width: 140px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .authPage .login_wraper .login_inr_wrp .loginimg_div {
+        min-width: 315px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .authPage .login_wraper .login_inr_wrp .formdiv {
+        padding: 0px 0px 32px 0px;
+    }
+    .authPage .login_wraper .login_inr_wrp .loginimg_div {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    body .ant-layout-header .logo {
+        min-width: 110px;
+        max-width: 110px;
+        margin: 0;
+    }
+    .ant-layout-header .ant-row {
+        width: 100%;
+    }
+    .ant-layout-header .ant-row .ant-col {
+        width: 100%;
+        text-align: center;
+    }
+    .ant-col.rightside a h1 {
+        display: none;
+        color: #ffffff;
+    }
+}
+
+
+/* -------------------------------     login-container     ------------------------------ */
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    min-height: auto;
+    max-height: -webkit-fill-available;
+    background-color: rgb(240, 240, 240);
+}
+
+.login-container .header-container {
+    width: 100%;
+    height: 90px;
+}
+
+.login-container .ant-layout {
+    display: flex;
+    flex-direction: row;
+}
+
+.login-child-container {
+    height: 100%;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.login-child-container .child-panel {
+    background-color: #e0e0e0;
+    padding: 12px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.login-child-container .ant-layout-content {
+    min-height: 0%;
+    background-color: #ffffff;
+    height: 38vh;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.slider {
+    width: 100%;
+}
+
+.login-panel {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+.login-panel .ant-layout-sider {
+    background: linear-gradient(to right, #141e30, #243b55);
+    width: 350px !important;
+    flex: 0 0 350px !important;
+    max-width: 350px !important;
+    min-width: 350px !important;
+    overflow: auto;
+    padding: 0 24px;
+    height: 100vh;
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin-top: 90px;
+}
+
+.login-panel .contentpart img {
+    width: 100vw;
+    height: 100vh;
+}
+
+.table-content {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.table-content .ant-table-wrapper {
+    /* height: 300px; */
+}
+
+.ant-table-thead>tr>th {
+    background: #243b55;
+    color: #ffffff;
+    padding: 10px 15px;
+}
+
+.login-panel-Advertisement {
+    height: 30px;
+    background-color: rgb(231, 88, 112);
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-panel-Advertisement h3 {
+    color: #ffffff;
+}
+
+.department-panel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.department-panel .ant-btn.ant-btn-primary {
+    width: auto;
+}
+
+@media only screen and (max-width: 768px) {
+    .login-panel .ant-layout-sider {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    .login-panel .ant-layout-sider {
+        width: 100% !important;
+        flex: 0 0 0 !important;
+        max-width: 100% !important;
+        min-width: 100% !important;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .contentpart .right_content_col .content_wraper {
+        padding: 18px;
+        padding-top: 0;
+        overflow: auto;
+        position: relative;
+    }
+}

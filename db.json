@@ -1,0 +1,176 @@
+{
+  "department": [
+    {
+      "id": 1,
+      "department": "Admin Department"
+    },
+    {
+      "id": 3,
+      "department": "Management Department"
+    },
+    {
+      "department": "8698r5",
+      "id": 6
+    }
+  ],
+  "designation": [
+    {
+      "id": 1,
+      "designation": "HR Management"
+    },
+    {
+      "designation": "Manager",
+      "id": 2
+    },
+    {
+      "designation": "BDE",
+      "id": 3
+    }
+  ],
+  "admin": [
+    {
+      "name": "tru",
+      "department": "Management Department",
+      "designation": "BDE",
+      "id": 4
+    },
+    {
+      "name": "fyuoyo",
+      "department": "Management Department",
+      "designation": "Manager",
+      "id": 8
+    },
+    {
+      "name": "wer6",
+      "department": "Admin Department",
+      "designation": "HR Management",
+      "id": 9
+    },
+    {
+      "name": "tfy",
+      "department": "Management",
+      "designation": "HR Management",
+      "id": 11
+    },
+    {
+      "name": "ry",
+      "department": "Management Department",
+      "designation": "Manager",
+      "id": 12
+    },
+    {
+      "name": "truydtuj",
+      "department": "Admin Department",
+      "designation": "HR Management",
+      "id": 13
+    },
+    {
+      "name": "dftu",
+      "department": "Electritian",
+      "designation": "BDE",
+      "id": 14
+    },
+    {
+      "name": "urtu",
+      "department": "Admin Department",
+      "designation": "HR Management",
+      "id": 15
+    },
+    {
+      "name": "sp",
+      "department": "IT",
+      "designation": "Manager",
+      "id": 16
+    },
+    {
+      "name": "Sandip",
+      "department": "Admin Department",
+      "designation": "HR Management",
+      "id": 17
+    },
+    {
+      "name": "sandip",
+      "department": "Admin Department",
+      "designation": "HR Management",
+      "id": 18
+    },
+    {
+      "name": "rt",
+      "department": "Admin Department",
+      "designation": "HR Management",
+      "id": 19
+    },
+    {
+      "name": "rey",
+      "department": "Admin Department",
+      "designation": "HR Management",
+      "id": 20
+    },
+    {
+      "name": "sdg",
+      "department": "Admin Department",
+      "designation": "Manager",
+      "id": 21
+    },
+    {
+      "name": "dgf",
+      "department": "Admin Department",
+      "designation": "Manager",
+      "id": 22
+    },
+    {
+      "name": "afg",
+      "department": "Admin Department",
+      "designation": "Manager",
+      "id": 23
+    },
+    {
+      "name": "sdhg",
+      "department": "Admin Department",
+      "designation": "Manager",
+      "id": 24
+    },
+    {
+      "name": "sg",
+      "department": "Admin Department",
+      "designation": "Manager",
+      "id": 25
+    },
+    {
+      "name": "rey",
+      "department": "Admin Department",
+      "designation": "Manager",
+      "id": 26
+    },
+    {
+      "name": "rtyu",
+      "department": "Admin Department",
+      "designation": "Manager",
+      "id": 27
+    },
+    {
+      "name": "rtu",
+      "department": "Admin Department",
+      "designation": "Manager",
+      "id": 28
+    },
+    {
+      "name": "dhj",
+      "department": "Admin Department",
+      "designation": "Manager",
+      "id": 30
+    },
+    {
+      "name": "wetgwe",
+      "department": "Admin Department",
+      "designation": "Manager",
+      "id": 31
+    },
+    {
+      "name": "ryiyti",
+      "department": "Admin Department",
+      "designation": "BDE",
+      "id": 32
+    }
+  ]
+}

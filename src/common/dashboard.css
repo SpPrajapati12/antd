@@ -1,0 +1,122 @@
+body #root {
+    height: 100%;
+}
+
+.sidebarbtn {
+    height: 40px;
+    position: fixed;
+    top: 100px;
+    left: 0px;
+    z-index: 20;
+    background-color: #505050;
+    width: 36px px;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0px 5px 5px 0px;
+    cursor: pointer;
+}
+
+.container-fluid {
+    padding: 0px 16px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+/* .logo {
+    margin-left: 32px;
+    width: 70px;
+    height: 70px;
+} */
+
+body .ant-layout-header .logo {
+    background: none;
+    min-width: 140px;
+    max-width: 140px;
+}
+
+.logoD {
+    height: 70px;
+    margin-left: 30px;
+}
+
+.logoW {
+    height: 60px;
+}
+
+.sidebarbtn.close {
+    left: 248px;
+}
+
+
+/* .ant-menu {
+    background-color: #2a6fa5;
+    color: white;
+} */
+
+.ant-layout-sider .logo {
+    min-width: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    min-height: 90px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.contentpart {
+    padding-top: 90px;
+    min-height: 100%;
+    background: #f6f6f6;
+    height: 100%;
+}
+
+.login-panel .contentpart {
+    padding-top: 0;
+}
+
+.contentpart .right_content_col {
+    display: flex;
+    flex-direction: column;
+    justify-content: normal;
+    height: 100%;
+    max-height: 100%;
+    min-height: 100%;
+}
+
+.contentpart .right_content_col {
+    display: flex;
+    flex-direction: column;
+    justify-content: normal;
+    height: 100%;
+    max-height: 100%;
+    min-height: 100%;
+}
+
+.contentpart .right_content_col .pagename {
+    padding: 10px 52px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 20px;
+    color: #343534;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 55px;
+}
+
+.contentpart .right_content_col .content_wraper {
+    padding: 32px;
+    padding-top: 0;
+    overflow: auto;
+    position: relative;
+}
+
+.login-panel .contentpart .right_content_col .content_wraper {
+    padding: 0;
+}
